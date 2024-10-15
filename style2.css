@@ -143,12 +143,12 @@ nav ul li {
 }
 .contact-text{
     background-color: #f7fbda;
-    padding: 30px 15px;
     border-radius: 3px;
     font-size: 12px;
     font-family: "Arial Regular";
     color: #7D7D7D;
     line-height: 1.5;
+    padding: 30px 15px;
 }
 
 /*.contact p {}
