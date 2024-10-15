@@ -146,11 +146,11 @@ nav ul li {
     padding: 5px 15px;
     border-radius: 3px;
     font-size: 12px;
+    font-family: "Arial Regular";
 }
 
 .contact p {
-    font-size: 12px;
-    font-family: "Arial Regular";
+
     color: #7D7D7D;
 }
 
