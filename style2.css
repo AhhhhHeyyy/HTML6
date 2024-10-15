@@ -130,9 +130,7 @@ nav ul li {
 .contact {
     width: 445px ;
     text-align: left;
-    font-size: 16px;
-    font-family: "Arial Regular";
-    color: #7D7D7D;
+
     
 }
 
@@ -149,6 +147,9 @@ nav ul li {
     background-color: #f7fbda;
     padding: 5px 15px;
     border-radius: 3px;
+    font-size: 16px;
+    font-family: "Arial Regular";
+    color: #7D7D7D;
 }
 
 /*.contact p {}
