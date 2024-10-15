@@ -1,0 +1,176 @@
+/* 整體背景 */
+body {
+    width: 1264px; /* 設置寬度 */
+    height: 880px; /* 設置高度 */
+    margin: 0 auto; /* 居中容器 */
+    background-color: #EDF2C5; /* 背景顏色 */
+   
+}
+
+.content{
+    width: 944px; /* 設置寬度 */
+    height: 845px; /* 設置高度 */
+    margin: 0 auto; 
+}
+
+.container-side-by-side {
+    display: flex;
+    justify-content: space-between; /* Aligns child elements (h1 and section) to opposite sides */
+    align-items: center; /* Vertically centers the items within the container */
+    margin-top: 53px;
+}
+
+
+/* 標題 */
+h1 {
+    text-align: left;
+    font-size: 36px;
+    margin: 0px;
+    color: #778A50;
+    font-family: "Arial Black", sans-serif;
+   
+}
+
+/* 聯絡方式 */
+.btn {
+    text-align: right;
+    color: #778A50;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+.btn p {
+    font-size: 16px;
+    font-family: "Arial Black";
+    border: 1px solid #778A50; /* 綠色邊框 */
+    border-radius: 3px; /* 添加圓角，讓按鈕更加平滑 */
+    background-color: #EDF2C5; /* 背景顏色與頁面一致 */
+    padding: 3px 10px; /* 內邊距，讓按鈕看起來更像塊狀 */
+    display: inline-block; /* 使段落作為行內塊元素顯示 */
+}
+
+.btn img {
+    width: 25px;
+    height: 25px;
+
+}
+.divider {
+    width: 1px;
+    height: 25px;
+    background-color: #778A50; /* 綠色直線 */
+    margin: 0px; /* 調整直線與圖片、按鈕之間的距離 */
+}
+
+/* 導航欄樣式 */
+nav ul{
+    list-style: none;
+    display: flex;
+    background-color: #778A50;
+    margin: 0px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+
+nav ul li {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Arial Black";
+    color: #EDF2C5;
+    background-color: #778A50;
+    padding: 10px;
+}
+
+
+/* 主內容區域 */
+.main-content {
+    margin-top: 25px;
+}
+
+.main-content img {
+    width: 943px;
+    height: 448px;
+}
+
+/* 內容區域 */
+.content-area {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+/* 蔬菜區塊樣式 */
+.vegetables {
+    width: 445px; 
+    text-align: left;
+}
+
+.vegetables h3 {
+    font-size: 16px;
+    font-family: "Arial Black";
+    color: #EDF2C5;
+    background-color: #778A50;
+    text-align: left;
+    padding: 16px 30px;
+    margin-bottom: 12px;
+    border-radius: 3px;
+}
+
+.vegetables img {
+    width: 140px;
+    height: 140px;
+    margin-right: 5.5px ;
+
+}
+
+/* 聯絡資訊 */
+.contact {
+    width: 445px ;
+    text-align: left;
+}
+
+.contact h3 {
+    font-size: 16px;
+    font-family: "Arial Black";
+    color: #EDF2C5;
+    background-color: #778A50;
+    padding: 16px 30px;
+    margin-bottom: 12px;
+    border-radius: 3px;
+}
+.contact-text{
+    background-color: #f7fbda;
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+
+.contact p {
+    font-size: 12px;
+    font-family: "Arial Regular";
+    color: #7D7D7D;
+}
+
+/* 頁尾樣式 */
+.foot {
+    background-color: #778A50;
+    padding: 25px 0px;
+    width: 1264px; /* 設置寬度 */
+    align-items: center;
+    margin-top: 35px;
+}
+
+.foot p {
+    font-size: 16px;
+    font-family: "Arial Regular";
+    color: #EDF2C5;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
